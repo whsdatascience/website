@@ -1,9 +1,8 @@
 {
-  "homepage" : "https://whsdatascience.github.io",
+  "homepage" : "https://babychousr.github.io/whsdatascience.github.io/",
   "name": "whsdatascience",
   "version": "1.0.0",
   "description": "WHS Data Science - A free Tailwind CSS and React UI Kit and Admin by Creative Tim.",
-  "repository": "https://github.com/BabyChouSr/whsdatascience.github.io",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.14.0",

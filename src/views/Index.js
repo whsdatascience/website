@@ -494,12 +494,12 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     1st Place at Hackdemonium
                   </h5>
-                  <Link to="/auth/login">
+                  <Link>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/login.jpg")}
+                        src={require("assets/img/hackdemonium.jpg")}
                       />
                     </div>
                   </Link>
@@ -509,7 +509,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Most Market-Ready at HackTable2020
                   </h5>
-                  <Link to="/profile">
+                  <Link>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -524,7 +524,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     2nd Place at EpsilonHacks 
                   </h5>
-                  <Link to="/landing">
+                  <Link>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -538,7 +538,7 @@ export default function Index() {
                   <h5 className="text-white text-xl font-semibold pb-4 text-center">
                     2nd Place at SRCHacksII
                   </h5>
-                  <Link to="/auth/login">
+                  <Link>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -552,7 +552,7 @@ export default function Index() {
                   <h5 className="text-white text-xl font-semibold pb-4 text-center">
                     2nd Place at SigmaHacks
                   </h5>
-                  <Link to="/auth/login">
+                  <Link>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -566,7 +566,7 @@ export default function Index() {
                   <h5 className="text-white text-xl font-semibold pb-4 text-center">
                     Organizer's Choice at MVHacksII
                   </h5>
-                  <Link to="/auth/login">
+                  <Link>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -593,28 +593,17 @@ export default function Index() {
                 Open Source
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-500">
-                Since{" "}
-                <a
-                  href="https://tailwindcss.com/?ref=creativetim"
-                  className="text-gray-400"
-                  target="_blank"
-                >
-                  Tailwind CSS
-                </a>{" "}
-                is an open source project we wanted to continue this movement
-                too. You can give this version a try to feel the design and also
-                test the quality of the code!
+                Our projects are all open source and we will be releasing our lectures soon so that everyone may enjoy the content we teach
               </p>
               <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-500">
-                Get it free on Github and please help us spread the news with a
-                Star!
+                Feel free to check out our projects on Github!
               </p>
               <a
-                href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
+                href="https://github.com/BabyChouSr/whsdatascience"
                 target="_blank"
                 className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg"
               >
-                Github Star
+                Github
               </a>
             </div>
 
@@ -625,7 +614,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="pb-16 bg-gray-300 relative pt-32">
+      {/* <section className="pb-16 bg-gray-300 relative pt-32">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -683,7 +672,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </>
   );

@@ -13,7 +13,7 @@ export default function Index() {
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-gray-700">
+              <h2 className="font-bold text-4xl text-black">
                 WHS Data Science - The Technological Hub of Washington High School
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-gray-600">
@@ -21,18 +21,18 @@ export default function Index() {
               </p>
               <div className="mt-12">
                 <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-index"
+                  href="https://www.facebook.com/groups/406915366823943"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blue-500 active:bg-blue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-red-600 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
-                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-gray-800 active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  href="https://github.com/BabyChouSr/whsdatascience"
+                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-black active:bg-gray-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   target="_blank"
                 >
-                  Github Star
+                  Projects
                 </a>
               </div>
             </div>
@@ -41,7 +41,7 @@ export default function Index() {
 
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
-          src={require("assets/img/pattern_react.png")}
+          src={require("assets/img/whsRubyMine.png")}
           alt="..."
         />
       </section>
@@ -69,7 +69,7 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blue-600">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-600">
                 <img
                   alt="..."
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
@@ -84,17 +84,16 @@ export default function Index() {
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
-                      className="text-blue-600 fill-current"
+                      className="text-red-600 fill-current"
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Great for your awesome project
+                    Project-based Learning
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                    In this club, we will emphasize creating projects 
+                    and the ability to extrapolate programming knowledge to 
+                    solve problems that no one has ever done before.
                   </p>
                 </blockquote>
               </div>
@@ -109,11 +108,10 @@ export default function Index() {
                         <i className="fas fa-sitemap"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        CSS Components
+                        Research
                       </h6>
                       <p className="mb-4 text-gray-600">
-                        WHS Data Science comes with a huge number of Fully Coded CSS
-                        components.
+                        WHS Data Science helps students prepare for research and scientific inquiry.
                       </p>
                     </div>
                   </div>
@@ -123,11 +121,10 @@ export default function Index() {
                         <i className="fas fa-drafting-compass"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        JavaScript Components
+                        Hackathons
                       </h6>
                       <p className="mb-4 text-gray-600">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
+                        WHS Data Science mentors students to compete in Hackathons.
                       </p>
                     </div>
                   </div>
@@ -138,10 +135,9 @@ export default function Index() {
                       <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
                         <i className="fas fa-newspaper"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
+                      <h6 className="text-xl mb-1 font-semibold">Entrepeneurship</h6>
                       <p className="mb-4 text-gray-600">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
+                        Our club will prepare you to read audiences and give captivating business pitches.
                       </p>
                     </div>
                   </div>
@@ -151,11 +147,10 @@ export default function Index() {
                         <i className="fas fa-file-alt"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        Documentation
+                        Fun
                       </h6>
                       <p className="mb-4 text-gray-600">
-                        Built by developers for developers. You will love how
-                        easy is to to work with WHS Data Science.
+                        Our club cultivates a fun atmosphere where you can share project ideas, tools, and stories.
                       </p>
                     </div>
                   </div>
@@ -165,7 +160,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="container mx-auto overflow-hidden pb-20">
+        {/* <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
@@ -174,7 +169,7 @@ export default function Index() {
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 CSS Components
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-black">
                 Every element that you need in a product comes built in as a
                 component. All components fit perfectly with each other and can
                 have different colours.
@@ -358,12 +353,12 @@ export default function Index() {
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 Javascript Components
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-black">
                 In order to create a great User Experience some components
                 require JavaScript. In this way you can manipulate the elements
                 on the page and give more options to your users.
               </p>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-black">
                 We created a set of Components that are dynamic and come to help
                 you.
               </p>
@@ -403,7 +398,7 @@ export default function Index() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="container mx-auto px-4 pb-32 pt-48">
           <div className="items-center flex flex-wrap">
@@ -413,13 +408,11 @@ export default function Index() {
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
-                  Complex Documentation
+                  Coding Community
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                  Our club ensures that you will be receiving personalized guidance throughout your coding journey and that your work will directly contribute to an application that will solve 
+                  challenges that society faces.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -431,7 +424,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-gray-600">
-                          Built by Developers for Developers
+                          Founded by Students for Students
                         </h4>
                       </div>
                     </div>
@@ -445,7 +438,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-gray-600">
-                          Carefully crafted code for Components
+                          Provide constant hands-on experience
                         </h4>
                       </div>
                     </div>
@@ -459,7 +452,7 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-gray-600">
-                          Dynamic Javascript Components
+                          Many mentors helping students
                         </h4>
                       </div>
                     </div>
@@ -473,10 +466,10 @@ export default function Index() {
                 alt="..."
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
-                  transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                  // transform:
+                  //   "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={require("assets/img/documentation.png")}
+                src={require("assets/img/club.jpg")}
               />
             </div>
           </div>
@@ -484,11 +477,9 @@ export default function Index() {
 
         <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
-            <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
+            <h2 className="font-semibold text-4xl">Hackathons</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-600">
-              WHS Data Science is a completly new product built using our past
-              experience in web templates. Take the examples we made for you and
-              start playing with them.
+              WHS Data Science is one of the top clubs competing at hackathons in the Bay Area, California, and beyond.
             </p>
           </div>
         </div>
@@ -501,7 +492,7 @@ export default function Index() {
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Login Page
+                    1st Place at Hackdemonium
                   </h5>
                   <Link to="/auth/login">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
@@ -516,7 +507,7 @@ export default function Index() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Profile Page
+                    Most Market-Ready at HackTable2020
                   </h5>
                   <Link to="/profile">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
@@ -531,7 +522,7 @@ export default function Index() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Landing Page
+                    2nd Place at EpsilonHacks 
                   </h5>
                   <Link to="/landing">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
@@ -539,6 +530,48 @@ export default function Index() {
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={require("assets/img/landing.jpg")}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-white text-xl font-semibold pb-4 text-center">
+                    2nd Place at SRCHacksII
+                  </h5>
+                  <Link to="/auth/login">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/login.jpg")}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-white text-xl font-semibold pb-4 text-center">
+                    2nd Place at SigmaHacks
+                  </h5>
+                  <Link to="/auth/login">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/login.jpg")}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-white text-xl font-semibold pb-4 text-center">
+                    Organizer's Choice at MVHacksII
+                  </h5>
+                  <Link to="/auth/login">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/login.jpg")}
                       />
                     </div>
                   </Link>
